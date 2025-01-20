@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="ZzD5qjb7R4iDw+v-6Z_r" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id=":i]8,$!05b)s]_^iJ)yd"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="C!k@I$Nr*6js~rv_;B!("><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="?X!5s7{8g.7BMaxgbk8;"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="0y%]8`9`bT1g(^cme82]"><field name="NUM">0</field></shadow><block type="soundLevel" id="Hr0v|*moS7g^:*m2_;`I"></block></value><value name="B"><shadow type="math_number" id="B-A*F48wxX!5]%{5ikx9"><field name="NUM">20</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="?X4`5tT(BUi[U@iNf2Jk"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="UhFS)h%$|Q;Rl~-~CBVc"><value name="pause"><shadow type="timePicker" id="?|hC`mrYELDO+h=}F)pV"><field name="ms">5000</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="/k]1y7gXl/hgYmqfv*TF"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
